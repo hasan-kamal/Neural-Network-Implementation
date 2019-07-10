@@ -1,14 +1,14 @@
 # Neural-Network-Implementation
 
-### Installation
-- To download MNIST data, install [python-mnist](https://pypi.org/project/python-mnist/) through `git clone` method (run the script to download data; ensure `python-mnist` directory exists inside the same directory which contains this notebook)
-
 ### Introduction
 - `neural_network_implementation.ipynb` notebook contains working implementation of a **vectorized fully-connected neural network** in NumPy
 - Backpropagation algorithm is implemented in a **full-vectorized fashion over a given minibatch**
 - This enables us to take advantage of powerful built-in NumPy APIs (and avoid clumsy nested loops!), consequently improving training speed
 - Backpropagation code lies in method *take_gradient_step_on_minibatch* of class _NeuralNetwork_
 - Refer to in-code documentation and comments for description of how the code is working
+
+### Installation
+- To download MNIST data, install [python-mnist](https://pypi.org/project/python-mnist/) through `git clone` method (run the script to download data; ensure `python-mnist` directory exists inside the same directory which contains this notebook)
 
 ### Contents
 1. Implement class _NeuralNetwork_
