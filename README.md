@@ -19,3 +19,6 @@
 - 1 hidden-layer (256 dimensional) with sigmoid activation on MNIST data
 ![Accuracy Plot](results/accuracy_plot.png)
 ![Confusion Matrix](results/confusion_matrix.png)
+
+### References
+1. ["How the backpropagation algorithm works"](http://neuralnetworksanddeeplearning.com/chap2.html) by [Michael Nielsen](http://michaelnielsen.org/)
